@@ -1,13 +1,6 @@
-var Aluno = /** @class */ (function () {
-    //o public já escondeu o atributo nome: string CRIANDO CLASSE 
-    function Aluno(nome) {
-        this.nome = nome;
-    }
-    Aluno.prototype.exibir = function () {
-        console.log("Nome:" + this.nome);
-    };
-    return Aluno;
-}());
+"use strict";
 //Criando objetos
-var ronqui = new Aluno("Rafael Ronqui");
+exports.__esModule = true;
+var base_escola_1 = require("./base-escola");
+var ronqui = new base_escola_1.Aluno("Marisol Poma");
 ronqui.exibir();
