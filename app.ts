@@ -1,10 +1,14 @@
 
-//Criando objetos
+//import para executar 
 
 
-import{Aluno} from "./base-escola"
+import{Pessoa} from "./pessoa"
 
-let ronqui = new Aluno("Marisol Poma")
+let resultado = new Pessoa()
 
 
-ronqui.exibir()
+resultado.peso = 68
+resultado.altura = 1.74
+
+console.log (resultado.imc())
+console.log(resultado.classificar()) 

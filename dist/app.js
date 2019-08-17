@@ -1,6 +1,9 @@
 "use strict";
-//Criando objetos
+//import para executar 
 exports.__esModule = true;
-var base_escola_1 = require("./base-escola");
-var ronqui = new base_escola_1.Aluno("Marisol Poma");
-ronqui.exibir();
+var pessoa_1 = require("./pessoa");
+var resultado = new pessoa_1.Pessoa();
+resultado.peso = 68;
+resultado.altura = 1.74;
+console.log(resultado.imc());
+console.log(resultado.classificar());
