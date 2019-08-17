@@ -1,9 +1,16 @@
 "use strict";
 //import para executar 
 exports.__esModule = true;
-var pessoa_1 = require("./pessoa");
-var resultado = new pessoa_1.Pessoa();
-resultado.peso = 68;
-resultado.altura = 1.74;
-console.log(resultado.imc());
-console.log(resultado.classificar());
+//import{Pessoa} from "./pessoa"
+//let resultado = new Pessoa()
+//resultado.peso = 70
+//resultado.altura = 1.53
+//console.log (resultado.imc())
+//console.log(resultado.classificar()) 
+var viagem_1 = require("./viagem");
+var mari = new viagem_1.Viagem();
+mari.tempoGasto = 2;
+mari.velocidadeMedia = 100;
+mari.rendimentoVeiculo = 10;
+console.log(mari.distancia());
+console.log(mari.consumo());
