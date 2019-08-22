@@ -7,7 +7,7 @@
 //let resultado = new Pessoa()
 
 
-//resultado.peso = 70
+//resultado.peso = 100
 //resultado.altura = 1.53
 
 //console.log (resultado.imc())

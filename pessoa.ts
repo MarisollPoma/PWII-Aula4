@@ -19,7 +19,7 @@ export class Pessoa {
             return "Obesidade Grau I"
         }else if (this.imc() <= 39.9 ) {
             return "Obesidade Grau II"
-        } else if (this.imc() > 40.0 ) {
+        } else {
             return "Obesidade Grau III"
         }
     }
